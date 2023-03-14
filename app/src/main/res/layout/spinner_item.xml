@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView
+    android:id="@+id/ktg_kod"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="10.10.10"
+    android:textSize="6pt"
+    android:ellipsize="marquee"
+    android:textAlignment="inherit"/>
+    <TextView
+        android:layout_marginLeft="2pt"
+        android:id="@+id/ktg_isim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elektrik" android:layout_below="@id/ktg_kod"
+        android:textSize="8pt"
+        android:ellipsize="marquee"
+        android:textAlignment="inherit"/>
+</RelativeLayout>

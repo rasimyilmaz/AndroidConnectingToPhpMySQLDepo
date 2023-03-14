@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Green">#57d051</color>
+    <color name="GreenDarker">#5ab855</color>
+    <color name="GreenDarkest">#f82aa024</color>
+    <color name="GreenPressed">#f815930e</color>
+</resources>

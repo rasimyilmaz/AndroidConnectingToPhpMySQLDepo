@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d3803f6930be87259184001512cc8ef3825920ef">
+        <dex dex="/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_524eaae8f9656336989d098cd9ac33d061cf30ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="5584bca2784fbb49f3b8de5539455911b7fee0eb">
+        <dex dex="/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2585e3fd3f49643deac25ff9a28d4960d1540fc3/classes.dex" />
+    </item>
+
+</items>

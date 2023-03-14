@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@android:drawable/ic_menu_info_details" />
+    <!-- City-->
+    <TextView
+        android:id="@+id/textView_GFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dip"
+        android:layout_centerVertical="true"
+        android:paddingBottom ="10dip"
+        android:text="5.75 TL"
+        android:textColor="#040404"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <TextView
+        android:id="@+id/textView_GTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_GFiyat"
+        android:layout_alignEnd="@+id/textView_GSatici"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="24.03.2015"
+        android:textColor="#343434"
+        android:layout_marginLeft="70dp"
+        android:textSize="15dip" />
+    <!-- Weather Information-->
+    <TextView
+        android:id="@+id/textView_GMiktar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_GFiyat"
+        android:layout_alignLeft="@+id/textView_GFiyat"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="20 Adet"
+        android:textColor="#343434"
+        android:textSize="15dip" />
+    <TextView
+        android:id="@+id/textView_GSatici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_GFiyat"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="KALEGIDA SAN.VE TİC.A.Ş."
+        android:textColor="#343434"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dip" />
+</RelativeLayout>  

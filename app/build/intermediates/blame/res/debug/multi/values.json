@@ -1,0 +1,814 @@
+[
+    {
+        "outputFile": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 39,
+                        "endOffset": 90
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 45,
+                    "endOffset": 136
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 95,
+                        "endColumn": 45,
+                        "endOffset": 136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 141,
+                    "endColumn": 48,
+                    "endOffset": 185
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 141,
+                        "endColumn": 48,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 190,
+                    "endColumn": 48,
+                    "endOffset": 234
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 190,
+                        "endColumn": 48,
+                        "endOffset": 234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 239,
+                    "endColumn": 56,
+                    "endOffset": 291
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 90,
+                        "endColumn": 56,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 296,
+                    "endColumn": 54,
+                    "endOffset": 346
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 148,
+                        "endColumn": 54,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 351,
+                    "endColumn": 78,
+                    "endOffset": 425
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1076,
+                        "endColumn": 78,
+                        "endOffset": 1150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 430,
+                    "endColumn": 70,
+                    "endOffset": 496
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1004,
+                        "endColumn": 70,
+                        "endOffset": 1070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 501,
+                    "endColumn": 106,
+                    "endOffset": 603
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1156,
+                        "endColumn": 106,
+                        "endOffset": 1258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 608,
+                    "endColumn": 53,
+                    "endOffset": 657
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 577,
+                        "endColumn": 53,
+                        "endOffset": 626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 662,
+                    "endColumn": 50,
+                    "endOffset": 708
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 632,
+                        "endColumn": 50,
+                        "endOffset": 678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 713,
+                    "endColumn": 86,
+                    "endOffset": 795
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 684,
+                        "endColumn": 86,
+                        "endOffset": 766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 800,
+                    "endColumn": 84,
+                    "endOffset": 880
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 845,
+                        "endColumn": 84,
+                        "endOffset": 925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 885,
+                    "endColumn": 71,
+                    "endOffset": 952
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 931,
+                        "endColumn": 71,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 957,
+                    "endColumn": 71,
+                    "endOffset": 1024
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 772,
+                        "endColumn": 71,
+                        "endOffset": 839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1029,
+                    "endColumn": 54,
+                    "endOffset": 1079
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 167,
+                        "endColumn": 54,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1084,
+                    "endColumn": 48,
+                    "endOffset": 1128
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 53,
+                        "endColumn": 44,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1133,
+                    "endLine": 20,
+                    "endColumn": 58,
+                    "endOffset": 1328
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 375,
+                        "endLine": 8,
+                        "endColumn": 58,
+                        "endOffset": 571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1333,
+                    "endColumn": 62,
+                    "endOffset": 1391
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 103,
+                        "endColumn": 62,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1396,
+                    "endColumn": 73,
+                    "endOffset": 1465
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 73,
+                        "endOffset": 292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1470,
+                    "endColumn": 75,
+                    "endOffset": 1541
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 75,
+                        "endOffset": 369
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 39,
+                        "endOffset": 90
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 45,
+                    "endOffset": 136
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 95,
+                        "endColumn": 45,
+                        "endOffset": 136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 141,
+                    "endColumn": 48,
+                    "endOffset": 185
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 141,
+                        "endColumn": 48,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 190,
+                    "endColumn": 48,
+                    "endOffset": 234
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 190,
+                        "endColumn": 48,
+                        "endOffset": 234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 239,
+                    "endColumn": 56,
+                    "endOffset": 291
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 90,
+                        "endColumn": 56,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 296,
+                    "endColumn": 54,
+                    "endOffset": 346
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 148,
+                        "endColumn": 54,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 351,
+                    "endColumn": 78,
+                    "endOffset": 425
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1076,
+                        "endColumn": 78,
+                        "endOffset": 1150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 430,
+                    "endColumn": 70,
+                    "endOffset": 496
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1004,
+                        "endColumn": 70,
+                        "endOffset": 1070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 501,
+                    "endColumn": 106,
+                    "endOffset": 603
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1156,
+                        "endColumn": 106,
+                        "endOffset": 1258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 608,
+                    "endColumn": 53,
+                    "endOffset": 657
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 577,
+                        "endColumn": 53,
+                        "endOffset": 626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 662,
+                    "endColumn": 50,
+                    "endOffset": 708
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 632,
+                        "endColumn": 50,
+                        "endOffset": 678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 713,
+                    "endColumn": 86,
+                    "endOffset": 795
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 684,
+                        "endColumn": 86,
+                        "endOffset": 766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 800,
+                    "endColumn": 84,
+                    "endOffset": 880
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 845,
+                        "endColumn": 84,
+                        "endOffset": 925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 885,
+                    "endColumn": 71,
+                    "endOffset": 952
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 931,
+                        "endColumn": 71,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 957,
+                    "endColumn": 71,
+                    "endOffset": 1024
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 772,
+                        "endColumn": 71,
+                        "endOffset": 839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1029,
+                    "endColumn": 54,
+                    "endOffset": 1079
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 167,
+                        "endColumn": 54,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1084,
+                    "endColumn": 48,
+                    "endOffset": 1128
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 53,
+                        "endColumn": 44,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1133,
+                    "endLine": 20,
+                    "endColumn": 58,
+                    "endOffset": 1328
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 375,
+                        "endLine": 8,
+                        "endColumn": 58,
+                        "endOffset": 571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1333,
+                    "endColumn": 62,
+                    "endOffset": 1391
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 103,
+                        "endColumn": 62,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1396,
+                    "endColumn": 73,
+                    "endOffset": 1465
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 73,
+                        "endOffset": 292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1470,
+                    "endColumn": 75,
+                    "endOffset": 1541
+                },
+                "from": {
+                    "file": "/Users/rasimyilmaz/Onedrive/AndroidConnectingToPhpMySQLDepo/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 75,
+                        "endOffset": 369
+                    }
+                }
+            }
+        ]
+    }
+]

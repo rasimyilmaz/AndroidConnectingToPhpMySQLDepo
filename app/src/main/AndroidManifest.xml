@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidhive"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+    <application
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="Yılmaz Yapı Market" >
+
+        <!-- All Product Activity -->
+        <activity
+            android:name=".AllProductsActivity"
+            android:label="Yılmaz Yapı Market"
+            android:screenOrientation="locked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.manateeworks.cameraDemo.ActivityCapture"
+            android:label="Scanner"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+        android:name="com.manateeworks.cameraDemo.ActivityCapture2"
+        android:label="Scanner"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+        </activity>
+        <activity
+            android:name=".Action_ListActivity"
+            android:label="@string/title_activity_action__list" >
+        </activity>
+        <activity
+            android:name=".Category"
+            android:label="@string/title_activity_category" >
+        </activity>
+    </application>
+
+</manifest>

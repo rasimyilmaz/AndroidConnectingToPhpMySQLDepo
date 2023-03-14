@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/DeliveryListView" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sunta Vidasi 4*50 PK:500 AD MERİDYEN"
+        android:id="@+id/textView_Delivery_isim"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kod:"
+        android:id="@+id/textViewB"
+        android:layout_below="@+id/textView_Delivery_isim"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SUP 01 001"
+        android:id="@+id/textView_Delivery_Kod"
+        android:layout_below="@+id/textView_Delivery_isim"
+        android:layout_toRightOf="@+id/textViewD"
+        android:layout_marginLeft="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verilen:"
+        android:id="@+id/textViewD"
+        android:layout_below="@+id/textView_Delivery_Kod"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="10"
+        android:id="@+id/textView_Delivery_Miktar"
+        android:layout_below="@+id/textView_Delivery_Kod"
+        android:layout_alignLeft="@+id/textView_Delivery_Kod" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Adet"
+        android:id="@+id/textView_Delivery_Birim"
+        android:layout_below="@+id/textView_Delivery_Kod"
+        android:layout_toRightOf="@+id/textView_Delivery_Miktar"
+        android:layout_marginLeft="4dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tarih:"
+        android:id="@+id/textViewF"
+        android:layout_below="@+id/textView_Delivery_isim"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="22.01.2017 10:45"
+        android:id="@+id/textView_Delivery_RecordTime"
+        android:layout_alignTop="@+id/textViewF"
+        android:layout_toRightOf="@+id/textViewF"
+        android:textColor="#fffcff0c" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sorumlu:"
+        android:id="@+id/textViewM"
+        android:singleLine="true"
+        android:layout_below="@+id/textViewF"
+        android:layout_alignRight="@+id/textViewF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rasim Yılmaz"
+        android:id="@+id/textView_Delivery_Person"
+        android:layout_below="@+id/textViewF"
+        android:layout_toRightOf="@+id/textViewM"
+        android:textColor="#ff01bc02" />
+    <TextView
+        android:id="@+id/textView_Delivery_id"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView_Delivery_cellphone"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LineListView" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sunta Vidasi 4*50 PK:500 AD MERİDYEN"
+        android:id="@+id/textView_Line_isim"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kod:"
+        android:id="@+id/textViewB"
+        android:layout_below="@+id/textView_Line_isim"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SUP 01 001"
+        android:id="@+id/textView_Line_Kod"
+        android:layout_below="@+id/textView_Line_isim"
+        android:layout_toRightOf="@+id/textViewB"
+        android:layout_marginLeft="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Merkez Depo"
+        android:id="@+id/textView_Line_Depo"
+        android:layout_below="@+id/textView_Line_Kod"
+        android:layout_alignLeft="@+id/textView_Line_Kod" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fiyat:"
+        android:id="@+id/textViewF"
+        android:layout_below="@+id/textView_Line_isim"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="11.25 TL"
+        android:id="@+id/textView_Line_Fiyat"
+        android:layout_alignTop="@+id/textViewF"
+        android:layout_toRightOf="@+id/textViewF"
+        android:textColor="#fffcff0c" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Miktar:"
+        android:id="@+id/textViewM"
+        android:singleLine="true"
+        android:layout_below="@+id/textViewF"
+        android:layout_alignRight="@+id/textViewF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="15"
+        android:id="@+id/textView_Line_remain"
+        android:layout_below="@+id/textViewF"
+        android:layout_toRightOf="@+id/textViewM"
+        android:textColor="#ff01bc02" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ad"
+        android:id="@+id/textView_Line_Birim"
+        android:layout_below="@+id/textViewF"
+        android:layout_toRightOf="@+id/textView_Line_remain"
+        android:textColor="#ff01bc02"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="veriniz."
+        android:id="@+id/textViewY"
+        android:layout_alignTop="@+id/textViewM"
+        android:layout_toRightOf="@+id/textView_Line_Birim"
+        android:textColor="#ff01bc02"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:id="@+id/textView_Line_Recordid"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView_Line_given"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView_Line_Miktar"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView_Line_Company"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depo:"
+        android:id="@+id/textViewD"
+        android:layout_below="@+id/textViewB"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Kısmi T" android:layout_marginLeft="2pt"
+        android:textColor="#fff"
+        android:id="@+id/buttonPartialDelivery"
+        android:layout_below="@+id/textView_Line_Depo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/round_button_green"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="Tam T"
+    android:textColor="#fff" android:layout_marginLeft="3pt"
+    android:id="@+id/buttonDelivery"
+    android:layout_toRightOf="@+id/buttonPartialDelivery"
+        android:layout_below="@+id/textView_Line_Depo"/>
+</RelativeLayout>

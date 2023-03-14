@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".AllProductsActivity">
+	<!-- Main ListView 
+		 Always give id value as list(@android:id/list)
+	-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingRight="9dp"
+        android:paddingBottom="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:paddingTop="13dp"
+            android:textSize="8pt"
+            android:id="@+id/textView"
+            android:textColor="#fffcc62e"
+            android:singleLine="false"
+            android:visibility="visible"
+            android:text="@string/textView"
+            android:onClick="open_category" />
+
+        <RadioGroup
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/radioGroupCompany">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İzmir"
+                android:id="@+id/radioButtonIzm" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aydın"
+                android:id="@+id/radioButtonAyd"
+                android:textColor="#FFFFD43B"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/PersonField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingRight="9dp"
+        android:paddingBottom="12dp"
+        android:layout_below="@+id/ActionBar"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:paddingTop="10dp"
+            android:textSize="8pt"
+            android:id="@+id/textViewPerson"
+            android:textColor="#6b64ff"
+            android:singleLine="false"
+            android:visibility="visible"
+            android:text="@string/Person"
+            android:onClick="open_category" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerPerson"/>
+
+        />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ActionBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PersonField"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:hint="Fatura Barkodunu Giriniz"
+        android:textSize="8pt"
+        android:inputType="number" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ara"
+        android:id="@+id/buttonFind"
+        android:width="80dp" />
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/scanner_mini"
+        android:onClick="inputBarcode" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/Header" android:visibility="invisible" android:layout_below="@id/ActionBar2">
+    <include layout="@layout/header"></include>
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Header"/>
+</RelativeLayout>

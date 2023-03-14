@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="Ünvan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewUnvanLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:text="SÜLEYMAN MURAT ÖNEM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Header_Unvan"
+        android:layout_alignBottom="@+id/textViewUnvanLabel"
+        android:layout_toRightOf="@+id/textViewKullaniciLabel" />
+
+    <TextView
+        android:text="07.02.2017"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Header_Tarih"
+        android:layout_alignBottom="@+id/textViewUnvanLabel"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:text="AÇIK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Header_Durum"
+        android:layout_below="@+id/textViewUnvanLabel"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:text="100,000.21"
+        android:textSize="10dp"
+        android:layout_marginLeft="3pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Header_Tutar"
+        android:layout_marginBottom="1pt"
+        android:layout_alignBottom="@+id/textView_Header_Durum"
+        android:layout_toRightOf="@+id/textView_Header_Documentid"
+        tools:gravity="top" />
+    <TextView
+        android:text="TL"
+        android:textSize="10dp"
+        android:layout_marginLeft="1pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTutarLabel"
+        android:layout_marginBottom="1pt"
+        android:layout_alignBottom="@+id/textView_Header_Durum"
+        android:layout_toRightOf="@+id/textView_Header_Tutar"
+        tools:gravity="top" />
+    <TextView
+        android:text="Kullanıcı "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_Header_Durum"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewKullaniciLabel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_rectangel_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#fff"
+        android:id="@+id/buttonDeliveryInfo"
+        android:layout_alignBottom="@+id/textViewKullaniciLabel"
+        android:layout_toRightOf="@+id/textView_Header_Kullanici"
+        android:layout_marginLeft="5pt"
+        android:textSize="10sp"
+        android:text="@string/Button_Teslimat_Liste"
+        android:layout_below="@+id/textView_Header_Documentid" />
+
+    <TextView
+        android:text="Borcu : 7,218.95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Header_Bakiye"
+        android:layout_alignBottom="@+id/textViewKullaniciLabel"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:text="ANA MERKEZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Header_Sube"
+        android:layout_alignBottom="@+id/textView_Header_Durum"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="İlknur Çoban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Header_Kullanici"
+        android:layout_below="@+id/textView_Header_Durum"
+        android:layout_toRightOf="@+id/textViewKullaniciLabel"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_rectangel_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#fff"
+        android:id="@+id/buttonRemainInfo"
+        android:textSize="10sp"
+        android:text="@string/Button_Teslim_Edilecekler_Liste"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/buttonDeliveryInfo"
+        android:layout_alignBottom="@+id/buttonDeliveryInfo"
+        android:layout_alignLeft="@+id/buttonDeliveryInfo"
+        android:layout_alignStart="@+id/buttonDeliveryInfo" />
+
+    <TextView
+        android:text="YYH2017000001241"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Header_Documentid"
+        android:layout_alignBottom="@+id/textView_Header_Durum"
+        android:layout_toRightOf="@+id/textViewKullaniciLabel"/>
+</RelativeLayout>

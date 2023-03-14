@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Yılmaz Yapı</string>
+    <string name="textView"><u>Yılmaz Yapı Market</u></string>
+    <string name="Person"><u>Sorumlu Kişi</u></string>
+    <string name="title_activity_action__list">Giriş Haraketleri</string>
+    <string name="title_activity_category">Kategori Dağılım Ekranı</string>
+    <string name="category_aciklama">Kategori dağılım işlemi için önce mağazayı seçiniz , sonra kategoriyi seçiniz. Barkodları okuttuğunuzda
+    ürünler istenilen kategoriye kaydedilecektir.</string>
+    <string name="Hata1">Servera erişim yok.</string>
+    <string name="Hata2">Ürün bulunamadı.</string>
+    <string name="Hata_Baglanti">"İnternet bağlantınızı kontrol edermisiniz?"</string>
+    <string name="Hata_Server">Android serverı cevap vermiyor.</string>
+    <string name="Hata_Kategori">Kategori seçiminizi kontrol eder misiniz?"</string>
+    <string name="Hata_MagazaSec">Mağaza seçimi yapar mısınız?</string>
+    <string name="Button_Teslimat_Liste">Teslimatları Listele</string>
+    <string name="Button_Teslim_Edilecekler_Liste">Teslim Edilecekler</string>
+    <string name="Connection_Drop_Down">Server kapalı veya Internet bağlantınızda sorun olabilir.</string>
+</resources>
